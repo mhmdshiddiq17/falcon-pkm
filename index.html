@@ -30,8 +30,6 @@
     <link href="vendors/simplebar/simplebar.min.css" rel="stylesheet">
     <link href="assets/css/theme-rtl.min.css" rel="stylesheet" id="style-rtl">
     <link href="assets/css/theme.min.css" rel="stylesheet" id="style-default">
-    <link href="assets/css/user-rtl.min.css" rel="stylesheet" id="user-style-rtl">
-    <link href="assets/css/user.min.css" rel="stylesheet" id="user-style-default">
     <link rel="stylesheet" href="assets/css/style.css">
     <script>
       var isRTL = JSON.parse(localStorage.getItem('isRTL'));
@@ -57,11 +55,12 @@
     <!--    Main Content-->
     <!-- ===============================================-->
     <main class="main" id="top">
-      <nav class="navbar navbar-standard navbar-expand-lg fixed-top navbar-dark" data-navbar-darken-on-scroll="data-navbar-darken-on-scroll">
-        <div class="container"><a class="navbar-brand logococo" href="../index.html"><span class="text-white dark__text-white">COCOBAROMA</span></a>
+      <!-- nav start -->
+      <nav class="navbar navbar-standard navbar-expand-lg fixed-top" data-navbar-darken-on-scroll="data-navbar-darken-on-scroll">
+        <div class="container"><a class="navbar-brand logococo" href="#"><span class="text-white dark__text-white">COCOBAROMA</span></a>
           <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarStandard" aria-controls="navbarStandard" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse scrollbar" id="navbarStandard">
-            <ul class="navbar-nav" data-top-nav-dropdowns="data-top-nav-dropdowns">
+            <ul class="navbar-nav ms-auto" data-top-nav-dropdowns="data-top-nav-dropdowns">
               <a class="nav-link " href="#" role="button"   aria-expanded="false" id="dashboards">Dashboard</a>
                
               
@@ -75,7 +74,7 @@
               <a class="nav-link " href="#product" role="button"   aria-expanded="false" id="dashboards">Product</a> 
               
             </ul>
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav">
               <li class="nav-item d-flex align-items-center me-2">
                 <div class="nav-link theme-switch-toggle fa-icon-wait p-0">
                   <input class="form-check-input ms-0 theme-switch-toggle-input" id="themeControlToggle" type="checkbox" data-theme-control="theme" value="dark">
@@ -93,21 +92,20 @@
       </nav>
         <!-- Nav End -->
       <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="py-0 overflow-hidden" id="banner" data-bs-theme="light">
+      <!-- <section> 1 begin ============================-->
+      <section class="py-0 overflow-hidden h-auto" id="banner" data-bs-theme="light">
 
         <div class="bg-holder overlay" style="background-image:url(assets/img/background.jpg);background-position: center bottom;">
         </div>
         <!--/.bg-holder-->
 
         <div class="container">
-          <div class="row flex-center pt-8 pb-lg-9 pb-xl-0">
-            <div class="col-lg-6 pb-8 ps-2 text-center text-xl-start"><a class="btn btn-outline-success mb-4 fs--1 border-2 rounded-pill " href="#!">Our Proposal</a>
-              <h1 class="text-white fw-semibold">COCOBAROMA: <span class="typed-text fw-bold" data-typed-text='["Anala","Agrapana","Upeksa"]'></span><br />PKM-Pemberdayaan Masyarakat</h1>
+          <div class="row flex-center pt-9">
+            <div class="col-lg-12 pb-8 ps-2 text-center"><a class="btn btn-outline-success mb-4 fs--1 border-2 rounded-pill " href="#!">Our Proposal</a>
+              <h1 class="text-white fw-semibold">COCOBAROMA: <span class="typed-text fw-bold" data-typed-text='["Anala","Agrapana","Upeksa"]'></span><br />PKM - Pemberdayaan Masyarakat</h1>
               <p class="lead text-white">"COCOBAROMA:Pemberdayaan Kelompok Wanita Tani Tayuban Melalui Diversifikasi Olahan Bahan dan Limbah Kelapa Berbasis Local-Resource Sebagai Upaya Menuju Desa Prima</p>
               <a class="btn btn-outline-light border-2 rounded-pill btn-lg mt-4 fs-0 py-2" href="#!">Lets Partnership With Us<span class="fas fa-play ms-2" data-fa-transform="shrink-6 down-1"></span></a>
             </div>
-            <div class="col-lg-6 align-items-start"><img src="assets/img/content.png" alt="" class="pb-10"/></div>
           </div>
         </div>
         <!-- end of .container-->
@@ -120,15 +118,16 @@
 
 
       <!-- ============================================-->
-      <!-- <section> begin ============================-->
+      <!-- <section> 2 begin ============================-->
       <section class="py-3 bg-light shadow-sm">
 
-        <div class="container">
-          <div class="row flex-center gap-4">
-            <div class="col-3 col-sm-auto"><img height="50" src="assets/img/kampus-merdeka2.png" alt="" /></div>
-            <div class="col-3 col-sm-auto"><img height="80" src="assets/img/pkm-logo.png" alt="" /></div>
-            <div class="col-3 col-sm-auto"><img height="80" src="assets/img/uny2.png" alt="" /></div>
-            <div class="col-3 col-sm-auto"><img height="80" src="assets/img/logococo.png" alt="" /></div>
+        <div class="container-fluid d-flex justify-content-center">
+          <div class="row gap-4">
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-x1"><img height="50" src="assets/img/kampus-merdeka2.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-x1"><img height="80" src="assets/img/pkm-logo.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-x1"><img height="80" src="assets/img/uny2.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-x1"><img height="80" src="assets/img/logococo.png" alt="" /></div>
+            <div class="col-3 col-sm-auto my-1 my-sm-3 px-x1"><img height="80" src="assets/img/logo-desa.png" alt="" /></div>
           </div>
         </div>
         <!-- end of .container-->
@@ -141,41 +140,46 @@
 
 
       <!-- ============================================-->
-      <!-- <section> begin ============================-->
-        <section class="bg-200 text-center" id="about">
+      <!-- <section> 3 begin ============================-->
+        <section class="bg-200 text-center about bagian2-first" id="about">
   
-          <div class="container">
-            <div class="row">
+          <div class="container-fluid flex-center" style="bottom: 70px;">
+            <div class="row bagian2">
               <div class="col">
-                <h1 class="fs-2 fs-sm-4 fs-md-5">Here's what's in it for you</h1>
-                <p class="lead">Things you will get right out of the box with Falcon.</p>
+                <h1 class="fs-2 fs-sm-4 fs-md-5 judul">Our Mission</h1>
+                <p class="lead judul">Things you will get right out of the box with Falcon.</p>
               </div>
             </div>
-            <div class="row mt-6">
-              <div class="col-lg-4">
+            <div class="row mt-5 text-dark" style="text-align: justify;">
+              <div class="col-lg-3">
                 <div class="card card-span h-100">
-                  <div class="card-span-img"><span class="fab fa-sass fs-4 text-info"></span></div>
-                  <div class="card-body pt-6 pb-4">
-                    <h5 class="mb-2">Bootstrap 5.x</h5>
-                    <p>Build your webapp with the world's most popular front-end component library along with Falcon's 32 sets of carefully designed elements.</p>
+                  <div class="card-body pt-5">
+                    <h5 class="mb-3 text-center">Mission 1: Anala</h5>
+                    <p>Kegiatan: pelatihan pembuatan biochar dari tempurung limbah kelapa dengan metode pyrolisis.</p>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 mt-6 mt-lg-0">
+              <div class="col-lg-3 mt-6 mt-lg-0">
                 <div class="card card-span h-100">
-                  <div class="card-span-img"><span class="fab fa-node-js fs-5 text-success"></span></div>
-                  <div class="card-body pt-6 pb-4">
-                    <h5 class="mb-2">SCSS &amp; Javascript files</h5>
-                    <p>With your purchased copy of Falcon, you will get all the uncompressed & documented SCSS and Javascript source code files.</p>
+                  <div class="card-body pt-5 pb-4">
+                    <h5 class="mb-2 text-center">Mission 2: Agrapana</h5>
+                    <p>Kegiatan: pelatihan pembuatan cocopeat dari serabut limbah kelapa.</p>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 mt-6 mt-lg-0">
+              <div class="col-lg-3 mt-6 mt-lg-0">
                 <div class="card card-span h-100">
-                  <div class="card-span-img"><span class="fab fa-gulp fs-6 text-danger"></span></div>
-                  <div class="card-body pt-6 pb-4">
-                    <h5 class="mb-2">Gulp based workflow</h5>
-                    <p>All the painful or time-consuming tasks in your development workflow such as compiling the SCSS or transpiring the JS are automated.</p>
+                  <div class="card-body pt-5 pb-4">
+                    <h5 class="mb-2 text-center">Mission 3: Upeksa</h5>
+                    <p>Kegiatan: pelatihan pembuatan lilin aromaterapi dari buah kelapa.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 mt-6 mt-lg-0">
+                <div class="card card-span h-100">
+                  <div class="card-body pt-5 pb-4">
+                    <h5 class="mb-2 text-center">Mission 4: Nucifera Preneur</h5>
+                    <p>Kegiatan: pelatihan digital marketing dan pengelolaan keuangan.</p>
                   </div>
                 </div>
               </div>
@@ -192,11 +196,12 @@
 
 
       <!-- ============================================-->
-      <!-- <section> begin ============================-->
-        <section class="bg-200" id="product" height="10px"> 
-        <div class="row g-3 mx-3 position-relative" style="bottom: 100px;">
+      <!-- <section> 4 begin ============================-->
+        <section class="bg-light product bagian2-second" id="product"> 
+        <!-- <div class="container" style="bottom: 95px;"> -->
+        <div class="row mx-3 position-relative" style="bottom: 84px;">
           
-          <div class="col-xxl-6 col-lg-6 order-xxl-1">
+          <div class="col-sm-6">
             <div class="card h-100">
               <div class="card-header">
                 <h6 class="mb-0">Our Mission</h6>
@@ -295,7 +300,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xxl-4 col-lg-6 order-xxl-3">
+          <div class="col-sm-6 card-member">
             <div class="card h-100">
               <div class="card-header bg-light py-2 d-flex flex-between-center">
                 <h6 class="mb-0">Members Activity</h6>
@@ -360,6 +365,7 @@
             </div>
           </div>
         </div>
+      <!-- </div> -->
       </section>
 
 
@@ -370,8 +376,8 @@
 
 
       <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="bg-light text-center">
+      <!-- <section> 5 begin ============================-->
+      <section class="bg-200 text-center">
 
         <div class="container">
           <div class="row justify-content-center">
@@ -381,19 +387,19 @@
                   <div class="swiper-slide">
                     <div class="px-5 px-sm-6">
                       <p class="fs-sm-1 fs-md-2 fst-italic text-dark">Falcon is the best option if you are looking for a theme built with Bootstrap. On top of that, Falcon&apos;s creators and support staff are very brilliant and attentive to users&apos; needs.</p>
-                      <p class="fs-0 text-600">- Scott Tolinski, Web Developer</p><img class="w-auto mx-auto" src="../assets/img/logos/google.png" alt="" height="45" />
+                      <p class="fs-0 text-600">- Scott Tolinski, Web Developer</p><img class="w-auto mx-auto" src="assets/img/logos/google.png" alt="" height="45" />
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="px-5 px-sm-6">
                       <p class="fs-sm-1 fs-md-2 fst-italic text-dark">We&apos;ve become fanboys! Easy to change the modular design, great dashboard UI, enterprise-class support, fast loading time. What else do you want from a Bootstrap Theme?</p>
-                      <p class="fs-0 text-600">- Jeff Escalante, Developer</p><img class="w-auto mx-auto" src="../assets/img/logos/netflix.png" alt="" height="30" />
+                      <p class="fs-0 text-600">- Jeff Escalante, Developer</p><img class="w-auto mx-auto" src="assets/img/logos/netflix.png" alt="" height="30" />
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="px-5 px-sm-6">
                       <p class="fs-sm-1 fs-md-2 fst-italic text-dark">When I first saw Falcon, I was totally blown away by the care taken in the interface. It felt like something that I&apos;d really want to use and something I could see being a true modern replacement to the current class of Bootstrap themes.</p>
-                      <p class="fs-0 text-600">- Liam Martens, Designer</p><img class="w-auto mx-auto" src="../assets/img/logos/paypal.png" alt="" height="45" />
+                      <p class="fs-0 text-600">- Liam Martens, Designer</p><img class="w-auto mx-auto" src="assets/img/logos/paypal.png" alt="" height="45" />
                     </div>
                   </div>
                 </div>
@@ -415,7 +421,7 @@
 
 
       <!-- ============================================-->
-      <!-- <section> begin ============================-->
+      <!-- <section> 6 begin ============================-->
       <section class="bg-dark" data-bs-theme="light">
 
         <div class="bg-holder overlay" style="background-image:url(assets/img/bg-2.jpg);background-position: center top;">
@@ -440,7 +446,7 @@
 
 
       <!-- ============================================-->
-      <!-- <section> begin ============================-->
+      <!-- <section> 7 begin ============================-->
       <section class="bg-dark pt-8 pb-4" data-bs-theme="light">
 
         <div class="container">
@@ -475,7 +481,7 @@
 
 
       <!-- ============================================-->
-      <!-- <section> begin ============================-->
+      <!-- <section> 8 begin ============================-->
       <section class="py-0 bg-dark" data-bs-theme="light">
 
         <div>
@@ -498,56 +504,7 @@
       <!-- ============================================-->
 
 
-      <div class="modal fade" id="authentication-modal" tabindex="-1" role="dialog" aria-labelledby="authentication-modal-label" aria-hidden="true">
-        <div class="modal-dialog mt-6" role="document">
-          <div class="modal-content border-0">
-            <div class="modal-header px-5 position-relative modal-shape-header bg-shape">
-              <div class="position-relative z-1" data-bs-theme="light">
-                <h4 class="mb-0 text-white" id="authentication-modal-label">Register</h4>
-                <p class="fs--1 mb-0 text-white">Please create your free Falcon account</p>
-              </div>
-              <button class="btn-close btn-close-white position-absolute top-0 end-0 mt-2 me-2" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body py-4 px-5">
-              <form>
-                <div class="mb-3">
-                  <label class="form-label" for="modal-auth-name">Name</label>
-                  <input class="form-control" type="text" autocomplete="on" id="modal-auth-name" />
-                </div>
-                <div class="mb-3">
-                  <label class="form-label" for="modal-auth-email">Email address</label>
-                  <input class="form-control" type="email" autocomplete="on" id="modal-auth-email" />
-                </div>
-                <div class="row gx-2">
-                  <div class="mb-3 col-sm-6">
-                    <label class="form-label" for="modal-auth-password">Password</label>
-                    <input class="form-control" type="password" autocomplete="on" id="modal-auth-password" />
-                  </div>
-                  <div class="mb-3 col-sm-6">
-                    <label class="form-label" for="modal-auth-confirm-password">Confirm Password</label>
-                    <input class="form-control" type="password" autocomplete="on" id="modal-auth-confirm-password" />
-                  </div>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="modal-auth-register-checkbox" />
-                  <label class="form-label" for="modal-auth-register-checkbox">I accept the <a href="#!">terms </a>and <a href="#!">privacy policy</a></label>
-                </div>
-                <div class="mb-3">
-                  <button class="btn btn-primary d-block w-100 mt-3" type="submit" name="submit">Register</button>
-                </div>
-              </form>
-              <div class="position-relative mt-5">
-                <hr />
-                <div class="divider-content-center">or register with</div>
-              </div>
-              <div class="row g-2 mt-2">
-                <div class="col-sm-6"><a class="btn btn-outline-google-plus btn-sm d-block w-100" href="#"><span class="fab fa-google-plus-g me-2" data-fa-transform="grow-8"></span> google</a></div>
-                <div class="col-sm-6"><a class="btn btn-outline-facebook btn-sm d-block w-100" href="#"><span class="fab fa-facebook-square me-2" data-fa-transform="grow-8"></span> facebook</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </main>
     <!-- ===============================================-->
     <!--    End of Main Content-->
